@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Eres pendejo?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        #questionContainer {
+            position: relative;
+            display: inline-block;
+            padding: 40px;
+            width: 400px; /* Aumentamos el ancho */
+            height: 250px; /* Aumentamos la altura */
+            border: 2px solid black;
+            background: #f3f3f3;
+        }
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+        }
+        #yesBtn {
+            background: green;
+            color: white;
+            left: 40%;
+            top: 60%;
+        }
+        #noBtn {
+            background: red;
+            color: white;
+            left: 60%;
+            top: 60%;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="questionContainer">
+        <p id="questionText">¿Eres pendejo?</p>
+        <button id="noBtn">No</button>
+        <button id="yesBtn">Sí</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
